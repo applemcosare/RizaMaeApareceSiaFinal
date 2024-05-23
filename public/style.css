@@ -1,0 +1,45 @@
+#main {
+    min-height: 100svh;
+    display: grid;
+    grid-template-columns: 330px 1fr;
+}
+
+#sidebar {
+    background-color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#branding {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: #888;
+}
+
+#sidebar img {
+    width: 100px;
+    margin-top: 32px;
+}
+
+#content {
+    padding: 32px;
+}
+
+#main-nav {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 24px;
+}
+
+#main nav a {
+    padding: 16px;
+    text-decoration: none;
+    color: #ddd;
+}
+
+#main nav a:hover {
+    background-color: #555;
+}
